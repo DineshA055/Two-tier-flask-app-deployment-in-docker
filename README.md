@@ -3,6 +3,8 @@
  TWO-TIER_ARCHITECTURE
 
 Process up to deployment in Docker 
+![image](https://github.com/DineshA055/Two-tier-flask-app-deployment-in-docker/assets/101075223/15e9c7de-8088-4d28-b688-ad54e97bd726)
+
 
 
 
@@ -13,6 +15,7 @@ Docker solving the problem
 * We required a virtual environment 
 * Build once run any where in supporting platform where docker can run the conatiner
 
+![image](https://github.com/DineshA055/Two-tier-flask-app-deployment-in-docker/assets/101075223/09691169-8ec1-476d-be49-48ef20211bb1)
 
 
 
@@ -24,6 +27,7 @@ Docker solving the problem
 
 Using Docker file to build the image and run in to the container
 
+![image](https://github.com/DineshA055/Two-tier-flask-app-deployment-in-docker/assets/101075223/d82364f9-d955-4d0b-9358-87d28b0acb3d)
 
 
 
@@ -33,6 +37,7 @@ Using Docker file to build the image and run in to the container
 Here an example for Docker file to build an image for a simple pyhon flask app
 
 DOCKER_FILE_TO_BUILD_AN_IMAGE :-
+![image](https://github.com/DineshA055/Two-tier-flask-app-deployment-in-docker/assets/101075223/7689d5de-bf02-471c-be0f-35df3c5166fb)
 
 
 NEXT  :- We start the process for deployment
@@ -100,6 +105,7 @@ Now CD get in to the directoy of repository
 Create a DOCKER_FILE to build the image 
 
 example giving below how to create a Docker file 
+![image](https://github.com/DineshA055/Two-tier-flask-app-deployment-in-docker/assets/101075223/44895965-3a1a-4ab2-b3a6-fb335ee51d62)
 
 
 Next :- After creation of Docker file run command to build an image
@@ -111,7 +117,8 @@ CMD :- docker build   -t  laskapp:latest  .                       #Here dot . Me
 
 Image build is completed you can see the result :-
 
-i
+![image](https://github.com/DineshA055/Two-tier-flask-app-deployment-in-docker/assets/101075223/4854ebcc-87bb-4446-adc4-61117ac6cfbc)
+
 Before going to run the image in Container you can push the image in Docker Hub to save the image run are use it anywhere by pull the image from Docker
 
 First :- Login to Docker 
@@ -158,6 +165,7 @@ for practise you can choose my IP or Custom
 Example :-    Run in brwoser instacane ip    
 
  Ip:5000 in browser you can see application render in browser
+![image](https://github.com/DineshA055/Two-tier-flask-app-deployment-in-docker/assets/101075223/698f36bd-5c1c-4c2a-8223-df00e54e95e6)
 
 
 *****You can see error in page because backend flask app conatiner and mysql conatiner is running but now connected ****** so we required to createa network connection when try to run the connatiner run
@@ -208,6 +216,7 @@ mysql>                                                     # Now entered in to m
 
 check myDb was created ---> show databases;
 use myDB;
+![image](https://github.com/DineshA055/Two-tier-flask-app-deployment-in-docker/assets/101075223/37d4797e-d3f5-467a-b99e-62f4b2b85fec)
 
 next add table creation copy from github repo and paste to create table refer in above screeshot
 
