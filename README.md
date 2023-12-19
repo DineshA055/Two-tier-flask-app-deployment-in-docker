@@ -76,7 +76,7 @@ Steps to follow :-
 
      CMD :- sudo apt update -y                      -y will skip asking yes to proceed
 
-# install docker from brwoser using CMD :- 
+# install docker from browser using CMD :- 
                     sudo apt-get install docker.io
 
 Next :- Add user to docker usergroup
